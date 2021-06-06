@@ -1,0 +1,70 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+	otline: none;
+	font-family: Microsoft Yahei, Arial,sans-serif;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	border: solid black 0px;
+}
+.header{
+	border: solid black 0px;
+	padding: 10px;
+}
+
+.content{
+	border: solid gainsboro 1px;
+	padding: 20px;
+	margin: 30px;
+}
+
+.footer{
+	border: solid black 0px;
+}
+
+.loginForm{
+	border: solid black 0px;
+	padding: 10px;
+}
+
+#username:focus, 
+#password:focus {
+	border-bottom: solid black 1px;
+}
+
+#username, #password{
+	width:100%;
+	outline: none;
+	border:  none;
+	padding: 5px;
+	font-size: 14px;
+	border-bottom: solid #e1e4e6 1px;
+	margin-bottom: 30px;
+}
+.loginButton{
+	width:100%;	
+	background-color: gainsboro;
+	border:  none;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 10px auto;
+	padding: 5px;
+}
+.loginButton:hover, .loginButton:focus{
+	cursor: pointer;
+	border: solid #2c82c9 1px;
+	background-color:#2c82c9;
+	color: white;
+	border:  none;
+}
+
+.notify{
+	padding: 10px;
+	text-align: center;
+	font-size: 11px;
+	border: solid gainsboro 1px;
+	height:  70px;
+	color:  blue;
+}
